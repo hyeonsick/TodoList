@@ -11,6 +11,8 @@ img{
     bottom: 0px;
     z-index: -1;
     opacity: 80%;
+    object-fit: cover;
+    object-position: center;
 }
 h1{
     text-align: center;
