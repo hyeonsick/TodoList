@@ -17,25 +17,38 @@ img{
 h1{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(30, 171, 117);
+    font-size: 60px;
+    text-shadow: 2px 2px 4px green;
 }
 ul{
     text-align: center;
-    color: rgb(207,223,99);
+    color: rgb(255, 255, 255);
     font-family: nanum;
     list-style: none;
+    text-shadow: 2px 2px 4px rgb(134, 117, 134);
 }
 h2{
-    font-size: 70px;
-    text-align: center;
+    margin: 10px;
+    font-size: 100px;
+    text-align: left;
+    color: rgb(35, 160, 91);
+    text-decoration: underline;
 }
 .weather{
     position: relative;
+    text-align: center;
+    margin:  100px;
 }
 button{
     position: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    border: 1px black;
 }
 input{
     position: absolute,fixed;
     display: flex;
     margin: auto;
+    border: 1px black;
 }
